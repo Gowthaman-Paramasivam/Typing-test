@@ -60,6 +60,10 @@ export const Main = () => {
       setColorArray([...colorArray])
     }
 
+    for (var i = inputData.split('').length; i < sampleData.split('').length - 1; i++) {
+      colorArray[i] = "";
+      setColorArray([...colorArray]);
+    }
   }
 
   return (

@@ -1,6 +1,6 @@
 .Header-div {
   text-align: center;
-  background-color: lightskyblue;
+  background-color: black;
   padding: 20px;
   font-size: 30px;
   color: white;
@@ -12,8 +12,8 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background: rgb(30, 170, 214);
-  background: linear-gradient(90deg, rgba(30, 170, 214, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
 
 .start-button {
@@ -26,6 +26,7 @@
   padding: 50px;
   font-size: 35px;
   border: 1px solid rgba(0, 0, 0, 0.338);
+  background: lightblue;
   border-radius: 20px;
 }
 
